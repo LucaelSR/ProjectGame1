@@ -1,0 +1,19 @@
+using System;
+namespace tomadaDeDecisao{
+class Program1{
+static void Main(string [] args){
+
+    int num = 0;
+
+    Console.WriteLine("Digite um número: ");
+    num = Convert.ToInt32(Console.ReadLine());
+
+    if(num > 0){
+        Console.WriteLine("O número digitado é positivo");
+    }else{
+        Console.WriteLine("O número digitado é negativo");
+    }
+    
+}
+}
+}
